@@ -1,3 +1,4 @@
+import math
 
 """
 name = input("Enter your name : ")
@@ -25,3 +26,19 @@ else :
 
 """
 
+"""
+rayon = float(input("Entrer le rayon du cercle : "))
+
+aire = math.pi * (rayon**2)
+print(f'Aire du cercle : {aire:.2f}')
+
+"""
+
+#a = bq + r
+
+nb = float(input("Saisissez le nombre à diviser : "))
+div = float(input("Saisissez le diviseur : "))
+
+print(f'Quotient entier = {nb//div}\n'
+      f'Reste = {nb % div}\n'
+      f'Resultat en dec = {nb/div}\n')
