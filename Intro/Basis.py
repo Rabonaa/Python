@@ -33,12 +33,20 @@ aire = math.pi * (rayon**2)
 print(f'Aire du cercle : {aire:.2f}')
 
 """
-
+"""
 #a = bq + r
 
 nb = float(input("Saisissez le nombre à diviser : "))
 div = float(input("Saisissez le diviseur : "))
 
-print(f'Quotient entier = {nb//div}\n'
+print(f'Quotient entier = {int(nb//div)}\n'
       f'Reste = {nb % div}\n'
       f'Resultat en dec = {nb/div}\n')
+"""
+
+print(type(5))
+print(type(5.0))
+print(type("5"))
+print(type([5]))
+print(type((5, )))
+print(type({5: 5}))
